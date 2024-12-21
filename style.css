@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Article styling */
+  article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section headers */
+  h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin: 10px 0 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Unordered lists */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li strong {
+    color: #2c3e50;
+    margin-right: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 30px;
+    border-top: 2px solid #3498db;
+    padding-top: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
